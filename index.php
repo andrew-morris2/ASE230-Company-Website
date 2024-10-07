@@ -266,7 +266,7 @@ $missionContent = readPlainText('data/mission.txt');
                         <p class="text-white-50 f-15 mb-0">
                             <script>
                                 document.write(new Date().getFullYear())
-                            </script> &copy; GreenTech. Design By Themesbrand
+                            </script> &copy; GreenTech. Design By Andrew, Josh, and Eric
                         </p>
                     </div>
                 </div>
