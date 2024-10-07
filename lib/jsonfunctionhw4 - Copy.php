@@ -5,6 +5,6 @@ function jsonToPhp($jsonFile) {
     return $phpArray;
 }
 
-$phpArray = jsonToPhp('path/to/your/file.json');
+$phpArray = jsonToPhp('data/ase230hw4file.json');
 print_r($phpArray);
 ?>
