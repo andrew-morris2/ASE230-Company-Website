@@ -25,7 +25,7 @@ $missionContent = readPlainText('data/mission.txt');
 
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="20">
 
-    <!-- Loader -->
+    <!-- Loader 
     <div id="preloader">
         <div id="status">
             <div class="spinner">
@@ -34,7 +34,7 @@ $missionContent = readPlainText('data/mission.txt');
                 <div class="bounce3"></div>
             </div>
         </div>
-    </div>
+    </div> -->
        <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top" id="navbar">
         <div class="container">
@@ -135,49 +135,15 @@ $missionContent = readPlainText('data/mission.txt');
                 </div>
                 <!-- end row -->
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="service-box text-center px-4 py-5 position-relative mb-4">
-                            <div class="service-box-content p-4">
-                                <div class="icon-mono service-icon avatar-md mx-auto mb-4">
-                                    <i class="" data-feather="box"></i>
-                                </div>
-                                <h4 class="mb-3 font-size-22">Digital Design</h4>
-                                <p class="text-muted mb-0">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col -->
-
-                    <div class="col-lg-4">
-                        <div class="service-box text-center px-4 py-5 position-relative mb-4 active">
-                            <div class="service-box-content p-4">
-                                <div class="icon-mono service-icon avatar-md mx-auto mb-4">
-                                    <i class="" data-feather="layers"></i>
-                                </div>
-                                <h4 class="mb-3 font-size-22">Awesome Support</h4>
-                                <p class="text-muted mb-0">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end col -->
-
-                    <div class="col-lg-4">
-                        <div class="service-box text-center px-4 py-5 position-relative mb-4">
-                            <div class="service-box-content p-4">
-                                <div class="icon-mono service-icon avatar-md mx-auto mb-4">
-                                    <i class="" data-feather="server"></i>
-                                </div>
-                                <h4 class="mb-3 font-size-22">Easy to customize</h4>
-                                <p class="text-muted mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque.</p>
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                        include 'lib/testing.php';
+                        jsonToPhp($file);  
+                    ?>
                     <!-- end col -->
                 </div>
                 <!-- end row -->
             </div>
             <!-- end container -->
-
         </section>
         <!-- Services end -->
 
@@ -192,42 +158,9 @@ $missionContent = readPlainText('data/mission.txt');
                     <!-- end col -->
                 </div>
                 <!-- end row -->
-                <div class="row align-items-center mb-5">
-                    <div class="col-md-5 order-2 order-md-1 mt-md-0 mt-5">
-                        <h2 class="mb-4">Perfect Solution For Small Businesses</h2>
-                        <p class="text-muted mb-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis..</p>
-                        <a href="javascript: void(0);" class="btn btn-primary">Find out more <i class="icon-xs ms-2" data-feather="arrow-right"></i></a>
-                    </div>
-                    <!-- end col -->
-                    <div class="col-md-6 ms-md-auto order-1 order-md-2">
-                        <div class="position-relative">
-                            <div class="ms-5 features-img">
-                                <img src="images/features-1.jpg" alt="" class="img-fluid d-block mx-auto rounded shadow" />
-                            </div>
-                            <img src="images/dot-img.png" alt="" class="dot-img-left" />
-                        </div>
-                    </div>
-                    <!-- end col -->
-                </div> 
-                <!-- end row -->
-                <div class="row align-items-center section pb-0">
-                    <div class="col-md-6">
-                        <div class="position-relative mb-md-0 mb-5">
-                            <div class="me-5 features-img">
-                                <img src="images/features-2.jpg" alt="" class="img-fluid d-block mx-auto rounded shadow" />
-                            </div>
-                            <img src="images/dot-img.png" alt="" class="dot-img-right" />
-                        </div>
-                    </div>
-                    <!-- end col -->
-                    <div class="col-md-5 ms-md-auto">
-                        <h2 class="mb-4">Build community & conversion with our suite of social tool</h2>
-                        <p class="text-muted mb-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore veritatis..</p>
-                        <a href="javascript: void(0);" class="btn btn-primary">Find out more <i class="icon-xs ms-2" data-feather="arrow-right"></i></a>
-                    </div>
-                    <!-- end col -->
-                </div>
-                <!-- end row -->
+               <?php
+                display_features($file);
+               ?>
             </div>
             <!-- end container -->
         </section>
