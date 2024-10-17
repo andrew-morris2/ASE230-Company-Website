@@ -50,6 +50,9 @@ $missionContent = readPlainText('data/mission.txt');
                     <li class="nav-item">
                         <a href="#contact" class="nav-link">Contact Us</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="#overview" class="nav-link">Products</a>
+                    </li>
                 </ul>
             </div>
         </div>
