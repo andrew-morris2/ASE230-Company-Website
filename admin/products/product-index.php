@@ -1,6 +1,6 @@
 <?php
 // Path to the JSON file
-$jsonFilePath = '../data/test.json';
+$jsonFilePath = './data/test.json';
 
 // Check if the file exists
 if (file_exists($jsonFilePath)) {
