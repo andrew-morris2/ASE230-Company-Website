@@ -76,19 +76,18 @@ if (file_exists($jsonFilePath)) {
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title"><?php echo htmlspecialchars($product['name']); ?></h5>
-                                <p class="card-text"><?php echo htmlspecialchars($product['description']); ?></p>
                                 <h6>Applications:</h6>
                                 <ul>
                                     <?php foreach ($product['applications'] as $application): ?>
-                                        <li>
-                                            <strong><?php echo htmlspecialchars($application['name']); ?></strong>: 
-                                            <?php echo htmlspecialchars($application['description']); ?>
-                                            <?php if (isset($application['image'])): ?>
+                                        <?php if (isset($application['image'])): ?>
+                                            <li>
+                                                <strong><?php echo htmlspecialchars($application['name']); ?></strong>: 
                                                 <img src="<?php echo htmlspecialchars($application['image']); ?>" alt="<?php echo htmlspecialchars($application['name']); ?>" class="img-fluid" style="max-width: 100%; height: auto;">
-                                            <?php endif; ?>
-                                        </li>
+                                            </li>
+                                        <?php endif; ?>
                                     <?php endforeach; ?>
                                 </ul>
+                                <a href="product-detail.php" class="btn btn-primary mt-3">Click to Learn More</a>
                             </div>
                         </div>
                     </div>
