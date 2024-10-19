@@ -3,12 +3,13 @@
     function read_csv_file($file){
         $fp=fopen($file, 'r'); //open csv file
         fgetcsv($fp); //Skip headers
+        $i = 0;
             while ($row = fgetcsv($fp)){ //loops through rows and assigns each column to row[x]
                 $year = $row[0];
                 $award = $row[1];
                 $details = $row[2];
                 echo' 
-                <div class="col-lg-3">
+                <div class="col-lg-4" style="height: 150px; margin-bottom: 20px;">
                     <div class="card plan-card mt-3 rounded text-center border-0 shadow overflow-hidden">
                         <div class="card-body px-3 py-5">
                             <!-- <div class="icon-mono avatar-md bg-soft-primary text-primary rounded mx-auto mb-5"><i class="icon-lg" data-feather="circle"></i></div> -->
@@ -19,6 +20,10 @@
                     </div>
                 </div>
                 ';
+                $i++;
+                if ($i >= 3) {
+                    break; // Exit loop after displaying 3 awards
+                }
             };
         fclose($fp); //close file
     };

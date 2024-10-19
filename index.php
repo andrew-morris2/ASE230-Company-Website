@@ -159,7 +159,7 @@ $missionContent = readPlainText('data/mission.txt');
                 </div>
                 <!-- end row -->
                <?php
-                display_features($file);
+                    display_features($file);
                ?>
             </div>
             <!-- end container -->
@@ -192,6 +192,9 @@ $missionContent = readPlainText('data/mission.txt');
                     <div class="col-lg-7 text-center">
                         <h2 class="fw-bold">Awards</h2>
                         <p class="text-muted">NaturaTech Solutions Inc. has been recognized for its innovative contributions to sustainability, including the 'Green Innovator of the Year' award in 2022 and successful partnerships that enhanced urban green spaces and water purification efforts globally.</p>
+                    </div>
+                    <div class="text-center">
+                    <a href="admin/awards/index.php" class="btn btn-primary">Checkout our awards page <i class="icon-xs ms-2" data-feather="arrow-right"></i></a>
                     </div>
                 </div>
                 <!-- end row -->
