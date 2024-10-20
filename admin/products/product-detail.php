@@ -76,6 +76,8 @@ if ($productId) {
                 <p>Product not found.</p>
             <?php endif; ?>
         </div>
+        <a href="product-edit.php?id=<?php echo urlencode($productId); ?>" class="btn btn-primary">Edit Product</a>
+        <a href="product-delete.php?id=<?php echo urlencode($product['id']); ?>" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this product?');">Delete Product</a>
     </section>
 
     <!-- Footer -->

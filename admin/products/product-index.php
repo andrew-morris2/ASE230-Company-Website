@@ -94,6 +94,12 @@ if (file_exists($jsonFilePath)) {
                 <?php endforeach; ?>
             </div>
         </div>
+        <div class="row justify-content-center mb-5">
+    <div class="col-lg-7 text-center">
+    <a href="product-create.php" class="btn btn-success mt-3">Create New Product</a>
+        <h2 class="fw-bold">Our Key Products and Services</h2>
+    </div>
+</div>
     </section>
     <!-- Key Products and Services End -->
 
