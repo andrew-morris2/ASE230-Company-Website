@@ -40,7 +40,7 @@ if (file_exists($jsonFilePath)) {
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="../../index.php" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="#key-products" class="nav-link">Key Products</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
                 </ul>
@@ -87,7 +87,7 @@ if (file_exists($jsonFilePath)) {
                                         <?php endif; ?>
                                     <?php endforeach; ?>
                                 </ul>
-                                <a href="product-detail.php" class="btn btn-primary mt-3">Click to Learn More</a>
+                                <a href="product-detail.php?id=<?php echo urlencode($product['id']); ?>" class="btn btn-primary mt-3">Click to Learn More</a>
                             </div>
                         </div>
                     </div>

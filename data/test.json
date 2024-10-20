@@ -1,6 +1,7 @@
 {
     "KeyProductsAndServices": [
       {
+        "id": "1",
         "name": "GreenRoof",
         "description": "A modular green roofing system that utilizes smart sensors to regulate water, sunlight, and nutrients, allowing urban spaces to contribute positively to the environment.",
         "applications": [
@@ -20,6 +21,7 @@
         ]
       },
       {
+        "id": "2",
         "name": "PureStream Filters",
         "description": "Bio-engineered filters that harness the power of specific bacteria and plants to purify water without chemicals, making potable water accessible and sustainable.",
         "applications": [
@@ -39,6 +41,7 @@
         ]
       },
       {
+        "id": "3",
         "name": "TerraCharge",
         "description": "Pathways made with special tiles that convert foot traffic into usable energy, illuminating pathways at night or powering nearby amenities.",
         "applications": [
@@ -58,6 +61,7 @@
         ]
       },
       {
+        "id": "4",
         "name": "EcoLearn Hub",
         "description": "A digital platform offering educational courses on sustainable living, organic farming, and eco-technology innovations.",
         "applications": [
