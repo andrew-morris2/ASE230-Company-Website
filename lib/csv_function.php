@@ -33,6 +33,7 @@
         $fp=fopen($file, 'r');
         $i = 1; //this will loop through each of the members pictures
         fgetcsv($fp);
+        $i=0;
         while($row = fgetcsv($fp)){
             $member = $row[0];
             $position = $row[1];
@@ -40,7 +41,7 @@
             <div class="col-lg col-sm-6">
                 <div class="team-box mt-4 position-relative overflow-hidden rounded text-center shadow">
                     <div class="position-relative overflow-hidden">
-                        <img src="images/team/' . $i . '.jpg" alt="" class="img-fluid d-block mx-auto" style="height: 325px"; />
+                        <img src="images/team/' . $i + 1 . '.jpg" alt="" class="img-fluid d-block mx-auto" style="height: 325px"; />
                         <ul class="list-inline p-3 mb-0 team-social-item">
                             <li class="list-inline-item mx-3">
                                 <a href="javascript: void(0);" class="team-social-icon h-primary"><i class="icon-sm" data-feather="facebook"></i></a>
@@ -60,6 +61,10 @@
                 </div>
             </div>';
             $i++;
+
+            if ($i >= 3){
+                break;
+            }
         };
     };
 

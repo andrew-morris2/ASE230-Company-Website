@@ -40,8 +40,8 @@ $missionContent = readPlainText('data/mission.txt');
         <div class="container">
         <!-- LOGO -->
             <a class="navbar-brand logo" href="index.php">
-                <img src="images/logo-dark.png" alt="" class="logo-dark" height="28" />
-                <img src="images/logo-light.png" alt="" class="logo-light" height="28" />
+                <img src="images/greentech.jpg" alt="" class="logo-dark" height="50" width="150" />
+                <img src="images/greentech.jpg" alt="" class="logo-light" height="50" width="75" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -88,6 +88,7 @@ $missionContent = readPlainText('data/mission.txt');
                 <div class="col-lg-8">
                     <div class="text-center">
                         <h1 class="font-weight-semibold mb-4 hero-3-title">Welcome to GreenTech</h1>
+                        <img style="height: 200px; width: 200px;" src="images/greentech2.png">
                     </div>
                 </div><!-- end col -->
             </div><!-- end row -->
@@ -230,6 +231,7 @@ $missionContent = readPlainText('data/mission.txt');
                     <div class="col-lg-7 text-center">
                         <h2 class="fw-bold">Our Team Members</h2>
                         <p class="text-muted">Meet our amazing team members!</p>
+                        <a href="admin/team/index.php" class="btn btn-primary">See the whole team <i class="icon-xs ms-2" data-feather="arrow-right"></i></a>
                     </div>
                     <!-- end col -->
                 </div>

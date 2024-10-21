@@ -99,11 +99,11 @@
 
 <body>
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom" id="navbar">
         <div class="container">
-            <a class="navbar-brand logo" href="index.php">
-                <img src="../../images/greentech.webp" alt="" class="logo-dark" height="50" width="100" />
-                <img src="../../images/greentech.webp" alt="" class="logo-light" height="28" />
+            <a class="navbar-brand logo" href="../../index.php">
+                <img src="../../images/greentech.jpg" alt="" class="logo-dark" height="125" width="125" />
+                <img src="../../images/greentech.jpg" alt="" class="logo-light" height="50" width="50" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">

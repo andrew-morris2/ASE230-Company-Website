@@ -1,6 +1,7 @@
-﻿Member,Position,
-Dr. Marcus Greene, Founder & CEO,
-Aisha Kwon,CTO,
-Carlos Mendoza,Chief of Design,
-Lydia D'souza,VP of Operations,
-Jamal Ahmed,Head of EcoLearn Hub,
+Member,Position,Description,ID,Image
+"Dr. Marcus Green","Founder & CEO","Holding a Ph.D. in Environmental Science from Stanford, Dr. Greene has always been a passionate advocate for eco-conscious innovations. His visionary leadership is the bedrock on which NaturaTech stands.",1,1.jpg
+"Aisha Kwon",CTO,"Aisha, with her background in bio-engineering, is the mastermind behind the cutting-edge technologies at NaturaTech. She believes in harnessing nature's wisdom to address modern challenges.",2,2.jpg,
+"Carlos Mendoza","Chief of Design","Carlos, an alumnus of Design Academy Eindhoven, combines minimalism with bio-inspired designs, making NaturaTech's products not only functional but also aesthetically appealing.",3,3.jpg,
+"Lydia D'souza","VP of Operations","Lydia's expertise lies in sustainable supply chains. She ensures that every step in NaturaTech's operations is ethical, green, and efficient.",4,4.jpg,
+"Jamal Ahmed","Head of EcoLearn Hub","Jamal, a former environmental studies professor from Yale, curates and oversees the rich tapestry of courses offered by EcoLearn, spreading eco-awareness across the globe.",5,5.jpg,
+"test member",test,"testing member",6715a7116888c,new_member.jpg
