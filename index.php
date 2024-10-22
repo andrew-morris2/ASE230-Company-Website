@@ -257,7 +257,8 @@ $missionContent = readPlainText('data/mission.txt');
                             nobis est eligendi optio cumque nihil impedit quo minus maxime.</p>
 
                         <div>
-                            <form method="post" name="myForm" onsubmit="return validateForm()">
+                            <form action = "admin/contacts/contacts.php?action=add" method="POST" name="add" onsubmit="return validateForm()">
+                                <input type="hidden" name="action" value="add">
                                 <p id="error-msg"></p>
                                 <div id="simple-msg"></div>
                                 <div class="row">
@@ -285,8 +286,8 @@ $missionContent = readPlainText('data/mission.txt');
                                         </div>
 
                                         <div class="mb-4 pb-2">
-                                            <label for="comments" class="text-muted form-label">Message</label>
-                                            <textarea name="comments" id="comments" rows="4" class="form-control"
+                                            <label for="message" class="text-muted form-label">Message</label>
+                                            <textarea name="message" id="message" rows="4" class="form-control"
                                                 placeholder="Enter message..."></textarea>
                                         </div>
 

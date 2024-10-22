@@ -72,11 +72,13 @@
                 },
                 {
                     "name": "Children's Series",
-                    "description": "Tailored courses introducing children to nature conservation, renewable energy, and the importance of biodiversity."
+                    "description": "Tailored courses introducing children to nature conservation, renewable energy, and the importance of biodiversity.",
+                    "image": ""
                 },
                 {
                     "name": "Global Webinars",
-                    "description": "Regular online sessions featuring guest experts in fields like permaculture, green architecture, and sustainable transportation. These webinars foster a community of eco-enthusiasts and offer the latest in green innovations."
+                    "description": "Regular online sessions featuring guest experts in fields like permaculture, green architecture, and sustainable transportation. These webinars foster a community of eco-enthusiasts and offer the latest in green innovations.",
+                    "image": ""
                 }
             ]
         }

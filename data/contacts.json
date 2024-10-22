@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "subject": "Partnership Inquiry",
+        "email": "john@example.com",
+        "message": "Looking to partner with you."
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "subject": "Support Needed",
+        "email": "jane@example.com",
+        "message": "I need help with your product."
+    },
+    {
+        "id": "6716ebc149ada",
+        "name": "Andrew",
+        "subject": "Test",
+        "email": "andrew.morris0202@gmail.com",
+        "message": "This is a test message"
+    },
+    {
+        "id": "6716ec9d5c273",
+        "name": "test",
+        "subject": "test",
+        "email": "test@gmail.com",
+        "message": "test"
+    },
+    {
+        "id": "6716f5c4a1afe",
+        "name": "Andrew",
+        "subject": "Subject...",
+        "email": "andrew.morris0202@gmail.com",
+        "message": "Enter message..."
+    }
+]

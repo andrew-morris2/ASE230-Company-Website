@@ -50,7 +50,7 @@ if (file_exists($jsonFilePath)) {
     <!-- Navbar End -->
 
     <!-- Hero Start -->
-    <section class="hero bg-center position-relative" style="background-image: url(images/hero-bg.png);" id="home">
+    <section class="hero bg-center position-relative" style="background-image: url(../../images/hero-bg.png);" id="home">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
@@ -94,50 +94,11 @@ if (file_exists($jsonFilePath)) {
                 <?php endforeach; ?>
             </div>
         </div>
-        <div class="row justify-content-center mb-5">
-    <div class="col-lg-7 text-center">
-    <a href="product-create.php" class="btn btn-success mt-3">Create New Product</a>
-        <h2 class="fw-bold">Our Key Products and Services</h2>
-    </div>
-</div>
     </section>
     <!-- Key Products and Services End -->
 
-    <!-- Contact Start -->
-    <section class="section" id="contact">
-        <div class="container">
-            <div class="row justify-content-center mb-5">
-                <div class="col-lg-7 text-center">
-                    <h2 class="fw-bold">Get in Touch</h2>
-                    <p class="text-muted">Contact us for more information.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <input type="text" class="form-control" placeholder="Name">
-                            </div>
-                            <div class="col-lg-6">
-                                <input type="email" class="form-control" placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <textarea class="form-control" placeholder="Message"></textarea>
-                            </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Contact End -->
-
     <!-- Footer Start -->
-    <footer class="footer" style="background-image: url(images/footer-bg.png);">
+    <footer class="footer" style="background-image: url(../../images/footer-bg.png);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
